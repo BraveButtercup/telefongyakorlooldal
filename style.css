@@ -1,0 +1,138 @@
+html {
+  font-size: 16px;
+}
+body {
+  min-width: 300px;
+}
+/*Header */
+.page-header {
+  font-size: 1.25rem;
+}
+.white-font {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+/*Features*/
+
+.features {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-box {
+  width: 80vw;
+  margin: 10px;
+  background-color: rgb(175, 173, 173);
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+.feature-img {
+  width: 100%;
+}
+/*Phone models*/
+.phone-models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.phone-model-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  padding: 20px;
+}
+.phone-model-img {
+  width: 90%;
+}
+.price {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: baseline;
+  margin-bottom: 0;
+}
+
+.model-feature-container {
+  text-align: center;
+}
+.phone-model-feature-img {
+  width: 70%;
+  margin: 1rem;
+}
+.phone-model-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/*CTA */
+.cta-banner {
+  height: 600px;
+  background-color: black;
+  color: cyan;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.2);
+  text-align: center;
+  background: url(./images/flagshipbanner.png);
+  background-size: cover;
+  background-position: center center;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.title-tagline-container {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+.page-footer {
+  min-height: 120px;
+  background-color: black;
+  color: antiquewhite;
+  padding: 3rem;
+}
+.footer-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+/*media query*/
+@media screen and (min-width: 576px) {
+  .features-box {
+    width: 200px;
+  }
+  .phone-model-box {
+    width: 40vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .phone-model-box {
+    width: 30vw;
+  }
+  .footer-menu {
+    flex-direction: row;
+  }
+}

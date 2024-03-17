@@ -6,7 +6,7 @@ Link: https://bravebuttercup.github.io/telefongyakorlooldal/
 
 Felhasználótípusok:
 
-- ropsszul informált felhasználó
+- rosszul informált felhasználó
 - prémium felhasználó
 - tech geek 
 
